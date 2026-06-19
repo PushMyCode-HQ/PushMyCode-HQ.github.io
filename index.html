@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./128.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PushMyCode - Auto-sync your coding solutions to GitHub</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="bg-gradient-orb orb-1"></div>
+    <div class="bg-gradient-orb orb-2"></div>
+
+    <header class="navbar">
+      <div class="logo">
+        <img src="./128.png" alt="PushMyCode Logo" class="logo-img">
+        <span>PushMyCode</span>
+      </div>
+      <nav>
+        <a href="#platforms">Platforms</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#demo">Watch Demo</a>
+        <a href="https://github.com/PushMyCode-HQ" target="_blank" class="nav-icon">
+          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="badge">Version 2.0 is Live 🚀</div>
+          <h1 class="headline">Solve it. Forget it.<br><span class="highlight">It's on GitHub.</span></h1>
+          <p class="subheadline">Automatically sync your accepted coding solutions directly to your personal GitHub repository.</p>
+          <div class="cta-group">
+            <a href="https://chromewebstore.google.com/detail/pushmycode/fnnfmholklglhofbbkppljekbnphfgil" target="_blank" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C8.74 0 8.333.015 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.74 0 12c0 3.26.014 3.667.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.74 24 12 24c3.26 0 3.667-.015 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.26-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM5.838 10.162h12.324v3.676H5.838v-3.676z"></path></svg>
+              Add to Chrome — It's Free
+            </a>
+            <a href="#demo" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Watch Demo
+            </a>
+          </div>
+          <div class="trust-banner">
+            100% Free • Open Source Parsers • Privacy First
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="glass-card mockup">
+            <div class="mockup-header">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+              <div class="mockup-title">github.com/YourName/coding-solutions</div>
+            </div>
+            <div class="mockup-body">
+              <div class="commit-row">
+                <span class="text-green">✔ Success</span> feat(medium): add 0001-two-sum [javascript]
+              </div>
+              <div class="commit-row">
+                <span class="text-green">✔ Success</span> feat(easy): add reverse-string [python]
+              </div>
+              <div class="graph-grid">
+                <!-- Dynamically generated in JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Supported Platforms Section -->
+      <section id="platforms" class="platforms-section">
+        <p class="platforms-title">WORKS SEAMLESSLY WITH YOUR FAVORITE PLATFORMS</p>
+        <div class="platforms-grid">
+          <div class="platform-logo">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/leetcode.svg" alt="LeetCode" style="filter: invert(1); width: 40px; margin-bottom: 8px;">
+            <span>LeetCode</span>
+          </div>
+          <div class="platform-logo">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/geeksforgeeks.svg" alt="GeeksforGeeks" style="filter: invert(1); width: 40px; margin-bottom: 8px;">
+            <span>GeeksforGeeks</span>
+          </div>
+          <div class="platform-logo">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hackerrank.svg" alt="HackerRank" style="filter: invert(1); width: 40px; margin-bottom: 8px;">
+            <span>HackerRank</span>
+          </div>
+          <div class="platform-logo">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg" alt="CodeChef" style="filter: invert(1); width: 40px; margin-bottom: 8px;">
+            <span>CodeChef</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="features">
+        <h2 class="section-title">Built for Competitive Programmers</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="icon-wrapper green-glow">
+              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+            <h3>Privacy First</h3>
+            <p>Zero servers. PushMyCode communicates directly between your local browser and GitHub.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper blue-glow">
+              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <h3>Beautiful Readmes</h3>
+            <p>Generates detailed markdown files containing problem descriptions, runtime stats, and code.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="icon-wrapper orange-glow">
+              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+            <h3>Streak Tracking</h3>
+            <p>Live dashboard inside your browser to track your daily problem-solving streak and total stats.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detailed Flow Section -->
+      <section id="how-it-works" class="how-it-works">
+        <h2 class="section-title">The PushMyCode Workflow</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon">1</div>
+            <div class="timeline-content glass-card">
+              <h3>Install & Connect Securely</h3>
+              <p>Add the extension to Chrome. Click the extension icon and authenticate with your GitHub account. Choose an existing repository or let PushMyCode create a new one for you.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-icon">2</div>
+            <div class="timeline-content glass-card">
+              <h3>Choose Your Platform</h3>
+              <p>Head over to LeetCode, HackerRank, GeeksforGeeks, or CodeChef. Start practicing your Data Structures and Algorithms.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-icon">3</div>
+            <div class="timeline-content glass-card">
+              <h3>Solve & Submit</h3>
+              <p>Write your code and click the native "Submit" button on the website. No extra buttons to press, just use the platform normally.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-icon">4</div>
+            <div class="timeline-content glass-card border-glow">
+              <h3 class="highlight">Auto-Sync to GitHub</h3>
+              <p>The moment your code gets "Accepted", PushMyCode instantly organizes the file, formats a Markdown explanation, and pushes it directly to your GitHub repository in the background.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Embed Section -->
+      <section id="demo" class="video-section">
+        <h2 class="section-title">See It In Action</h2>
+        <div class="video-container glass-card">
+          <iframe 
+            src="https://www.youtube.com/embed/dMHSMj9PJOM" 
+            title="PushMyCode YouTube Demo" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="./128.png" alt="PushMyCode" width="32">
+          <span>PushMyCode</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://chromewebstore.google.com/detail/pushmycode/fnnfmholklglhofbbkppljekbnphfgil" target="_blank">Chrome Web Store</a>
+          <a href="https://www.linkedin.com/company/134544151/" target="_blank">LinkedIn</a>
+          <a href="https://youtu.be/dMHSMj9PJOM?si=UMMW91WeCHRuSzr4" target="_blank">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 PushMyCode. All rights reserved.</p>
+      </div>
+    </footer>
+    
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
